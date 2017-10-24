@@ -48,7 +48,7 @@ void setup() {
   Serial.begin(115200);                           //ボーレイト115200bpsでシリアル通信をする
   Blynk.begin(Blynk_auth,WiFi_SSID,WiFi_PASSWORD);//Blynk.begin処理を使う。内容はBlynkSimpleEsp32.hの中に書いてある
   dht.begin();                                    //dht.begin処理を使う。内容はDHT.hの中に書いてある
-  timer.setInterval(1000L, TimerSensor);
+  timer.setInterval(1000L, TimerSensor);          //TimerSensorを1000ミリ秒に一度呼び出す
 }
 
 void loop() {
