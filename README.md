@@ -19,10 +19,17 @@ B.特集2に掲載されているサンプルコード集は以下の通り(Rasp
 「Make_toolchain.sh」はtoolchainをmakeするための手順を示したスクリプトです。
 
 「Circuit.Rev.A.pdf」は付録の基板の回路図になります。
+
 この回路図の著作権は、作者である森一弘・門誠二人の個人に帰属します。
+
 回路図の商用利用に関して、著作権者に事前承諾が必要となります。
+
 個人利用に関しては、以下の規定に従うものとします。
+
 •Popular copyleft licenses include:
+
 •Creative Commons Attribution, Share-Alike(BY-SA)
+
 •GNU General Public License(GPL)
+
 •Hardware-Specific Licenses: TAPR OHL,CERN OHL
