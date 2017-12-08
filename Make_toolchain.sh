@@ -17,7 +17,7 @@ make install
 ./ct-ng build
 
 # 出来たファイルのアクセス権限を変更し、homeディレクトリ下のArduinoディレクトリ中のhardwareライブラリの中にコピーします。
-chmod –R u+w builds/xtensa-esp32-elf
+chmod --recursive u+w builds/xtensa-esp32-elf
 cd builds
 cp -r xtensa-esp32-elf/ ~/Arduino/hardware/espressif/esp32/tools/
 
